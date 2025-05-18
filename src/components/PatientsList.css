@@ -1,0 +1,58 @@
+/* src/components/PatientsList.css */
+.patients-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.patients-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.patients-list {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-item {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.delete-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+.no-patients {
+  text-align: center;
+  color: #888;
+}
+
+/* src/components/PatientsList.css */
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
